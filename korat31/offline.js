@@ -1,0 +1,30 @@
+﻿{
+	"version": 1561276936,
+	"fileList": [
+		"data.js",
+		"c2runtime.js",
+		"jquery-2.1.1.min.js",
+		"offlineClient.js",
+		"images/playbutton-sheet0.png",
+		"images/player-sheet0.png",
+		"images/bullet-sheet0.png",
+		"images/enemy-sheet0.png",
+		"images/panel-sheet0.png",
+		"images/replay1-sheet0.png",
+		"images/player2-sheet0.png",
+		"images/bullet2-sheet0.png",
+		"images/space-sheet0.png",
+		"images/enemy2-sheet0.png",
+		"images/ex-sheet0.png",
+		"media/explosion 3.m4a",
+		"media/explosion 3.ogg",
+		"media/mattoglseby - 3.ogg",
+		"media/mattoglseby - 3.m4a",
+		"icon-16.png",
+		"icon-32.png",
+		"icon-114.png",
+		"icon-128.png",
+		"icon-256.png",
+		"loading-logo.png"
+	]
+}
