@@ -1,0 +1,30 @@
+﻿{
+	"version": 1564903180,
+	"fileList": [
+		"data.js",
+		"c2runtime.js",
+		"jquery-2.1.1.min.js",
+		"images/player-sheet0.png",
+		"images/g-sheet0.png",
+		"images/candy-sheet0.png",
+		"images/brock-sheet0.png",
+		"images/box-sheet0.png",
+		"images/win-sheet0.png",
+		"images/bereset-sheet0.png",
+		"images/main-sheet0.png",
+		"images/images-sheet0.png",
+		"images/ee941ec21a7a32179e50abffa21c-sheet0.png",
+		"images/maxresdefault-sheet0.png",
+		"images/download-sheet0.png",
+		"images/mqdefault-sheet0.png",
+		"images/sprite2-sheet0.png",
+		"media/mattoglseby - 3.m4a",
+		"media/mattoglseby - 3.ogg",
+		"icon-16.png",
+		"icon-32.png",
+		"icon-114.png",
+		"icon-128.png",
+		"icon-256.png",
+		"loading-logo.png"
+	]
+}
