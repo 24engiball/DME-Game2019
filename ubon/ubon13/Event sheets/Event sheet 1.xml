@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable constant="0" name="score" sid="2585065304722579" static="0" type="number">0</variable>
+        <event-block sid="423404856043216">
+            <conditions>
+                <condition behavior="Platform" id="8" name="On moved" sid="5565377931484458" type="komn" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="2490007251034257" type="komn">
+                    <param id="0" name="Animation">&quot;run&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6693236917117685">
+            <conditions>
+                <condition behavior="Platform" id="7" name="On stopped" sid="8649934789137936" type="komn" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="9544558114764359" type="komn">
+                    <param id="0" name="Animation">&quot;def&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7318886168084586">
+            <conditions>
+                <condition behavior="Platform" id="5" name="On jump" sid="7062147803749386" type="komn" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="2209424318076573" type="komn">
+                    <param id="0" name="Animation">&quot;ju8mp&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1153491255628218">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="6717190537048452" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="7347917723318746" type="komn">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="404766769908304">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="9117071186599229" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="1362143141345973" type="komn">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9668618585848479">
+            <conditions>
+                <condition behavior="Platform" id="9" name="On landed" sid="7135267027455665" type="komn" />
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="9929529784876146">
+            <conditions>
+                <condition behavior="Platform" id="0" name="Is moving" sid="5763627230149789" type="komn" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="4283714034158786" type="komn">
+                    <param id="0" name="Animation">&quot;run&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9543608165482793">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="6262270862026128" type="Sprite10">
+                    <param id="0" name="Object">komn</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="789916547094421" type="komn" />
+                <action id="-15" name="Set visible" sid="7004433366795197" type="Text">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3384500257783759">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="9330166408980967" type="Sprite13">
+                    <param id="0" name="Object">komn</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="13" name="Set double-jump" sid="6842211257060688" type="komn">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5905524691766353">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="5304447594497875" type="komn">
+                    <param id="0" name="Object">cuon</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="803916517628826" type="cuon" />
+                <action id="-10" name="Add to" sid="3054980248704391" type="System">
+                    <param id="0" name="Variable">score</param>
+                    <param id="1" name="Value">10</param>
+                </action>
+                <action id="0" name="Set text" sid="8760520136551491" type="nan">
+                    <param id="0" name="Text">score</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6156777315889899">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="5957666290512636" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Text</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="1614051422915206" type="System" />
+                <action id="-9" name="Set value" sid="2883756031155335" type="System">
+                    <param id="0" name="Variable">score</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="4048752799693188" type="Text">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="8722719001754642" type="Text2">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2703732803823933">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="8523409653738429" type="Sprite18">
+                    <param id="0" name="Object">komn</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="867173272299205" type="Text2">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="387909997154522" type="Sprite18">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="5565445486881645" type="System">
+                    <param id="0" name="Layout">Layout 1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9505615884675085">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="7952838216336524" type="Sprite21">
+                    <param id="0" name="Object">komn</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="2828080403025712" type="komn" />
+                <action id="-15" name="Set visible" sid="4179763062383866" type="Text">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5425562159408759">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="6607804057815941" type="Sprite15">
+                    <param id="0" name="Object">komn</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="13" name="Set double-jump" sid="535608475792465" type="komn">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

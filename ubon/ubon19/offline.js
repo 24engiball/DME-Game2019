@@ -1,0 +1,31 @@
+﻿{
+	"version": 1566718457,
+	"fileList": [
+		"data.js",
+		"c2runtime.js",
+		"jquery-2.1.1.min.js",
+		"offlineClient.js",
+		"images/tiledbackground.png",
+		"images/ground.png",
+		"images/player-sheet0.png",
+		"images/player-sheet1.png",
+		"images/coin2-sheet0.png",
+		"images/tiledbackground2.png",
+		"images/ground2.png",
+		"images/dun1.png",
+		"images/player2-sheet0.png",
+		"images/player2-sheet1.png",
+		"images/tiledbackground3.png",
+		"images/jumpto.png",
+		"images/tiledbackground4.png",
+		"images/bullet-sheet0.png",
+		"media/explosion 3.m4a",
+		"media/explosion 3.ogg",
+		"icon-16.png",
+		"icon-32.png",
+		"icon-114.png",
+		"icon-128.png",
+		"icon-256.png",
+		"loading-logo.png"
+	]
+}
